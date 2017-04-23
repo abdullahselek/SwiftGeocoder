@@ -1,0 +1,6 @@
+framework module Pods_SwiftGeocoderTests {
+  umbrella header "Pods-SwiftGeocoderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
