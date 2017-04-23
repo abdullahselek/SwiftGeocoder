@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A4B7D25A1EAC9282009FC843"
-               BuildableName = "SwiftGeocoder-iOS.framework"
+               BuildableName = "SwiftGeocoder.framework"
                BlueprintName = "SwiftGeocoder-iOS"
                ReferencedContainer = "container:SwiftGeocoder.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4B7D25A1EAC9282009FC843"
-            BuildableName = "SwiftGeocoder-iOS.framework"
+            BuildableName = "SwiftGeocoder.framework"
             BlueprintName = "SwiftGeocoder-iOS"
             ReferencedContainer = "container:SwiftGeocoder.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4B7D25A1EAC9282009FC843"
-            BuildableName = "SwiftGeocoder-iOS.framework"
+            BuildableName = "SwiftGeocoder.framework"
             BlueprintName = "SwiftGeocoder-iOS"
             ReferencedContainer = "container:SwiftGeocoder.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4B7D25A1EAC9282009FC843"
-            BuildableName = "SwiftGeocoder-iOS.framework"
+            BuildableName = "SwiftGeocoder.framework"
             BlueprintName = "SwiftGeocoder-iOS"
             ReferencedContainer = "container:SwiftGeocoder.xcodeproj">
          </BuildableReference>
