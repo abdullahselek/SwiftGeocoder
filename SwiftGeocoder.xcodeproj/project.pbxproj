@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		032527F85E82B91DF22A6471 /* Pods_SwiftGeocoder_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387535180D55C1DB8D41B55A /* Pods_SwiftGeocoder_iOSTests.framework */; };
+		7E6E14367DB7B3F7C293FA76 /* Pods_SwiftGeocoder_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8B4630BE2D6F340B0D1BDF /* Pods_SwiftGeocoder_iOS.framework */; };
 		A4B7D2641EAC9283009FC843 /* SwiftGeocoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B7D25B1EAC9282009FC843 /* SwiftGeocoder.framework */; };
 		A4B7D2721EAC93BC009FC843 /* SwiftGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B7D24F1EAC9231009FC843 /* SwiftGeocoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -23,14 +25,20 @@
 
 /* Begin PBXFileReference section */
 		326D039A2A6F236CA447A996 /* Pods_SwiftGeocoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGeocoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		387535180D55C1DB8D41B55A /* Pods_SwiftGeocoder_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGeocoder_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		412A8707487722F5087CCF14 /* Pods-SwiftGeocoder-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGeocoder-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGeocoder-iOS/Pods-SwiftGeocoder-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		5A254CD45461A972626051D6 /* Pods-SwiftGeocoder-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGeocoder-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGeocoder-iOSTests/Pods-SwiftGeocoder-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		60C68EAA659094BA4D91C3C9 /* Pods-SwiftGeocoderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGeocoderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGeocoderTests/Pods-SwiftGeocoderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6FD10551F50499DC092CB1D3 /* Pods_SwiftGeocoderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGeocoderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D6CD64DDC9303420170C93 /* Pods-SwiftGeocoder-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGeocoder-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGeocoder-iOSTests/Pods-SwiftGeocoder-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4B7D24E1EAC9231009FC843 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
 		A4B7D24F1EAC9231009FC843 /* SwiftGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftGeocoder.h; path = Sources/SwiftGeocoder.h; sourceTree = "<group>"; };
 		A4B7D2521EAC923E009FC843 /* Info-iOSTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOSTests.plist"; path = "Tests/Info-iOSTests.plist"; sourceTree = "<group>"; };
 		A4B7D2531EAC923E009FC843 /* SwiftGeocoderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftGeocoderTests.swift; path = Tests/SwiftGeocoderTests.swift; sourceTree = "<group>"; };
 		A4B7D25B1EAC9282009FC843 /* SwiftGeocoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftGeocoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B7D2631EAC9282009FC843 /* SwiftGeocoder-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftGeocoder-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB76B14FF7C2B782D71E3383 /* Pods-SwiftGeocoder-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGeocoder-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGeocoder-iOS/Pods-SwiftGeocoder-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BC8B4630BE2D6F340B0D1BDF /* Pods_SwiftGeocoder_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGeocoder_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC945A38848D32089FEF712A /* Pods-SwiftGeocoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGeocoder.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGeocoder/Pods-SwiftGeocoder.release.xcconfig"; sourceTree = "<group>"; };
 		C2F38D5BD6BB7DB42913310E /* Pods-SwiftGeocoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGeocoder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGeocoder/Pods-SwiftGeocoder.debug.xcconfig"; sourceTree = "<group>"; };
 		E4003EF63B8BDAABCDD96205 /* Pods-SwiftGeocoderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGeocoderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGeocoderTests/Pods-SwiftGeocoderTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -41,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E6E14367DB7B3F7C293FA76 /* Pods_SwiftGeocoder_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B7D2641EAC9283009FC843 /* SwiftGeocoder.framework in Frameworks */,
+				032527F85E82B91DF22A6471 /* Pods_SwiftGeocoder_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +70,8 @@
 			children = (
 				326D039A2A6F236CA447A996 /* Pods_SwiftGeocoder.framework */,
 				6FD10551F50499DC092CB1D3 /* Pods_SwiftGeocoderTests.framework */,
+				BC8B4630BE2D6F340B0D1BDF /* Pods_SwiftGeocoder_iOS.framework */,
+				387535180D55C1DB8D41B55A /* Pods_SwiftGeocoder_iOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,6 +121,10 @@
 				BC945A38848D32089FEF712A /* Pods-SwiftGeocoder.release.xcconfig */,
 				60C68EAA659094BA4D91C3C9 /* Pods-SwiftGeocoderTests.debug.xcconfig */,
 				E4003EF63B8BDAABCDD96205 /* Pods-SwiftGeocoderTests.release.xcconfig */,
+				BB76B14FF7C2B782D71E3383 /* Pods-SwiftGeocoder-iOS.debug.xcconfig */,
+				412A8707487722F5087CCF14 /* Pods-SwiftGeocoder-iOS.release.xcconfig */,
+				93D6CD64DDC9303420170C93 /* Pods-SwiftGeocoder-iOSTests.debug.xcconfig */,
+				5A254CD45461A972626051D6 /* Pods-SwiftGeocoder-iOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -131,10 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4B7D26C1EAC9283009FC843 /* Build configuration list for PBXNativeTarget "SwiftGeocoder-iOS" */;
 			buildPhases = (
+				20C12C0AFA4348A41D3874B6 /* [CP] Check Pods Manifest.lock */,
 				A4B7D2561EAC9282009FC843 /* Sources */,
 				A4B7D2571EAC9282009FC843 /* Frameworks */,
 				A4B7D2581EAC9282009FC843 /* Headers */,
 				A4B7D2591EAC9282009FC843 /* Resources */,
+				35523B4F169B6698DADBBEB3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4B7D26F1EAC9283009FC843 /* Build configuration list for PBXNativeTarget "SwiftGeocoder-iOSTests" */;
 			buildPhases = (
+				61C1E7CD1083FA1E76FE8FEC /* [CP] Check Pods Manifest.lock */,
 				A4B7D25F1EAC9282009FC843 /* Sources */,
 				A4B7D2601EAC9282009FC843 /* Frameworks */,
 				A4B7D2611EAC9282009FC843 /* Resources */,
+				1FDF779290FE69FF8804C78D /* [CP] Embed Pods Frameworks */,
+				6BD456FD0FAC466BB02184C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,10 +196,12 @@
 				TargetAttributes = {
 					A4B7D25A1EAC9282009FC843 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					A4B7D2621EAC9282009FC843 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -217,6 +240,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FDF779290FE69FF8804C78D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGeocoder-iOSTests/Pods-SwiftGeocoder-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20C12C0AFA4348A41D3874B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35523B4F169B6698DADBBEB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGeocoder-iOS/Pods-SwiftGeocoder-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61C1E7CD1083FA1E76FE8FEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD456FD0FAC466BB02184C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftGeocoder-iOSTests/Pods-SwiftGeocoder-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4B7D2561EAC9282009FC843 /* Sources */ = {
@@ -351,7 +452,9 @@
 		};
 		A4B7D26D1EAC9283009FC843 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB76B14FF7C2B782D71E3383 /* Pods-SwiftGeocoder-iOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -364,13 +467,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SwiftGeocoder-iOS";
 				PRODUCT_NAME = SwiftGeocoder;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A4B7D26E1EAC9283009FC843 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 412A8707487722F5087CCF14 /* Pods-SwiftGeocoder-iOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -389,24 +495,33 @@
 		};
 		A4B7D2701EAC9283009FC843 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D6CD64DDC9303420170C93 /* Pods-SwiftGeocoder-iOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Tests/Info-iOSTests.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SwiftGeocoder-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A4B7D2711EAC9283009FC843 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A254CD45461A972626051D6 /* Pods-SwiftGeocoder-iOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Tests/Info-iOSTests.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.SwiftGeocoder-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -430,6 +545,7 @@
 				A4B7D26E1EAC9283009FC843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4B7D26F1EAC9283009FC843 /* Build configuration list for PBXNativeTarget "SwiftGeocoder-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +554,7 @@
 				A4B7D2711EAC9283009FC843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

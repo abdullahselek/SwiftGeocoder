@@ -1,13 +1,16 @@
 platform :ios, '8.0'
 
-target 'SwiftGeocoder' do
-  use_frameworks!
+workspace 'SwiftGeocoder.xcworkspace'
+project 'SwiftGeocoder.xcodeproj'
 
-  target 'SwiftGeocoderTests' do
-    inherit! :search_paths
-    pod 'Quick', '~> 1.1.0'
-    pod 'Nimble', '~> 6.1.0'
-    pod 'OHHTTPStubs', '~> 6.0.0'
-  end
+target 'SwiftGeocoder-iOS' do
+	project 'SwiftGeocoder.xcodeproj'
+  	use_frameworks!
 
+  	target 'SwiftGeocoder-iOSTests' do
+    	inherit! :search_paths
+    	pod 'Quick', '~> 1.1.0'
+    	pod 'Nimble', '~> 6.1.0'
+    	pod 'OHHTTPStubs/Swift', '~> 6.0.0'
+  	end
 end

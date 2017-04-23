@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SwiftGeocoderTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SwiftGeocoderTestsVersionString[];
+FOUNDATION_EXPORT double Pods_SwiftGeocoder_iOSVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SwiftGeocoder_iOSVersionString[];
 
