@@ -1,0 +1,6 @@
+ci_service: travis_ci
+coverage_service: coveralls
+workspace: SwiftGeocoder.xcodeworkspace
+xcodeproj: SwiftGeocoder.xcodeproj
+scheme: SwiftGeocoder-iOS
+source_directory: Sources/
