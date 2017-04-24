@@ -38,7 +38,6 @@
 		A4B7D24E1EAC9231009FC843 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
 		A4B7D24F1EAC9231009FC843 /* SwiftGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftGeocoder.h; path = Sources/SwiftGeocoder.h; sourceTree = "<group>"; };
 		A4B7D2521EAC923E009FC843 /* Info-iOSTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOSTests.plist"; path = "Tests/Info-iOSTests.plist"; sourceTree = "<group>"; };
-		A4B7D2531EAC923E009FC843 /* SwiftGeocoderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftGeocoderTests.swift; path = Tests/SwiftGeocoderTests.swift; sourceTree = "<group>"; };
 		A4B7D25B1EAC9282009FC843 /* SwiftGeocoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftGeocoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B7D2631EAC9282009FC843 /* SwiftGeocoder-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftGeocoder-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB76B14FF7C2B782D71E3383 /* Pods-SwiftGeocoder-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGeocoder-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGeocoder-iOS/Pods-SwiftGeocoder-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				A4B7D2521EAC923E009FC843 /* Info-iOSTests.plist */,
-				A4B7D2531EAC923E009FC843 /* SwiftGeocoderTests.swift */,
 				A4284B511EACA4C8004AD40C /* GeocoderTests.swift */,
 			);
 			name = Tests;
