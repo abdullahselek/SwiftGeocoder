@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		032527F85E82B91DF22A6471 /* Pods_SwiftGeocoder_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387535180D55C1DB8D41B55A /* Pods_SwiftGeocoder_iOSTests.framework */; };
 		7E6E14367DB7B3F7C293FA76 /* Pods_SwiftGeocoder_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8B4630BE2D6F340B0D1BDF /* Pods_SwiftGeocoder_iOS.framework */; };
+		A4284B501EACA49B004AD40C /* Geocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4284B4F1EACA49B004AD40C /* Geocoder.swift */; };
+		A4284B521EACA4C8004AD40C /* GeocoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4284B511EACA4C8004AD40C /* GeocoderTests.swift */; };
 		A4B7D2641EAC9283009FC843 /* SwiftGeocoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B7D25B1EAC9282009FC843 /* SwiftGeocoder.framework */; };
 		A4B7D2721EAC93BC009FC843 /* SwiftGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B7D24F1EAC9231009FC843 /* SwiftGeocoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -31,6 +33,8 @@
 		60C68EAA659094BA4D91C3C9 /* Pods-SwiftGeocoderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGeocoderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGeocoderTests/Pods-SwiftGeocoderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6FD10551F50499DC092CB1D3 /* Pods_SwiftGeocoderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGeocoderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D6CD64DDC9303420170C93 /* Pods-SwiftGeocoder-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGeocoder-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGeocoder-iOSTests/Pods-SwiftGeocoder-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4284B4F1EACA49B004AD40C /* Geocoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Geocoder.swift; path = Sources/Geocoder.swift; sourceTree = "<group>"; };
+		A4284B511EACA4C8004AD40C /* GeocoderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeocoderTests.swift; path = Tests/GeocoderTests.swift; sourceTree = "<group>"; };
 		A4B7D24E1EAC9231009FC843 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
 		A4B7D24F1EAC9231009FC843 /* SwiftGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftGeocoder.h; path = Sources/SwiftGeocoder.h; sourceTree = "<group>"; };
 		A4B7D2521EAC923E009FC843 /* Info-iOSTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOSTests.plist"; path = "Tests/Info-iOSTests.plist"; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 			children = (
 				A4B7D24E1EAC9231009FC843 /* Info-iOS.plist */,
 				A4B7D24F1EAC9231009FC843 /* SwiftGeocoder.h */,
+				A4284B4F1EACA49B004AD40C /* Geocoder.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -110,6 +115,7 @@
 			children = (
 				A4B7D2521EAC923E009FC843 /* Info-iOSTests.plist */,
 				A4B7D2531EAC923E009FC843 /* SwiftGeocoderTests.swift */,
+				A4284B511EACA4C8004AD40C /* GeocoderTests.swift */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -324,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4284B501EACA49B004AD40C /* Geocoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4284B521EACA4C8004AD40C /* GeocoderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
