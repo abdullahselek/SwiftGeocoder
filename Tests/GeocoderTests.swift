@@ -56,6 +56,24 @@ class GeocoderTests: QuickSpec {
                     self.waitForExpectations(timeout: 5.0, handler: nil)
                 })
             })
+            context("-reverseGeocode", {
+                it("should return a dictionary", closure: {
+                    stub(condition: isMethodGET()) { request in
+                        let obj = ["key1":"value1", "key2": ["value2A","value2B"]] as [String : Any]
+                        return OHHTTPStubsResponse(jsonObject: obj, statusCode: 200, headers: nil)
+                    }
+                    let expectation = self.expectation(description: "Geocoder expectation")
+                    geocoder.reverseGeocode(latitude: 10.0, longitude: 11.0, completion: { (result, error) in
+                        expect(result).notTo(beNil())
+                        expect(error).to(beNil())
+                        expectation.fulfill()
+                    })
+                    self.waitForExpectations(timeout: 5.0, handler: nil)
+                })
+            })
+        }
+        afterEach {
+            OHHTTPStubs.removeAllStubs()
         }
     }
     
