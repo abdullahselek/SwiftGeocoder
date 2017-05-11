@@ -45,29 +45,7 @@ open class Geocoder {
             print("Error: cannot create URL")
             return
         }
-        let urlRequest = URLRequest(url: url)
-        let config = URLSessionConfiguration.default
-        let session = URLSession(configuration: config)
-        let task = session.dataTask(with: urlRequest) {
-            (data, response, error) in
-            guard error == nil else {
-                completion(nil, error)
-                return
-            }
-            guard let responseData = data else {
-                return
-            }
-            do {
-                guard let json = try JSONSerialization.jsonObject(with: responseData, options: []) as? [String: AnyObject] else {
-                    return
-                }
-                completion(json, nil)
-            } catch  {
-                let error = NSError(domain: "error trying to convert data to JSON", code: 0, userInfo: nil)
-                completion(nil, error as Error)
-            }
-        }
-        task.resume()
+        makeRequest(url: url, completion: completion)
     }
 
     open func reverseGeocode(latitude: Double,
@@ -81,6 +59,14 @@ open class Geocoder {
             print("Error: cannot create URL")
             return
         }
+        makeRequest(url: url, completion: completion)
+    }
+
+    internal func urlEncode(url: String) -> String {
+        return url.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
+    }
+
+    internal func makeRequest(url: URL, completion: @escaping (_ result: [String: AnyObject]?, _ error: Error?) -> Void) {
         let urlRequest = URLRequest(url: url)
         let config = URLSessionConfiguration.default
         let session = URLSession(configuration: config)
@@ -104,10 +90,6 @@ open class Geocoder {
             }
         }
         task.resume()
-    }
-
-    internal func urlEncode(url: String) -> String {
-        return url.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
     }
 
 }
